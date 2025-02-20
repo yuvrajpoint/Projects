@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(242, 242, 242);
+  color: white;
+  font-family: Arial;
+}
+
+.all-content {
+  background: rgb(151, 71, 71);
+  margin: 12px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 1px 1px 12px rgb(8, 8, 8);
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.move-icon {
+  height: 110px;
+  margin: 6px;
+  border-radius: 60px;
+  border-width: 8px;
+  box-shadow: 1px 1px 12px rgba(191, 206, 61, 0.6);
+  border-style: solid;
+  border-color: rgb(191, 206, 61);
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 16px;
+  border: none;
+  cursor: pointer;
+  /* display: inline-block;
+  justify-content: center;
+  align-items: center; */
+}
+
+.last-but-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container p {
+  text-align: center;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 8px 15px;
+  margin: 2px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6);
+}
