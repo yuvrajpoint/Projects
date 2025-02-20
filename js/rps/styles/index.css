@@ -2,12 +2,13 @@ body {
   background-color: rgb(242, 242, 242);
   color: white;
   font-family: Arial;
+  transform: scale(1);
 }
 
 .all-content {
   background: rgb(151, 71, 71);
-  margin: 12px;
-  margin-top: 30px;
+  margin: 36px;
+  margin-top: 80px;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 1px 1px 12px rgb(8, 8, 8);
@@ -21,7 +22,8 @@ body {
   justify-content: center;
 }
 
-.button-container {
+.button-container,
+.current-move {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +34,7 @@ body {
   width: 110px;
   border-radius: 60px;
   border-width: 8px;
+  margin: 4px;
   box-shadow: 1px 1px 12px rgba(191, 206, 61, 0.6);
   border-style: solid;
   border-color: rgb(191, 206, 61);
