@@ -29,7 +29,7 @@ body {
 
 .move-icon {
   height: 110px;
-  margin: 6px;
+  width: 110px;
   border-radius: 60px;
   border-width: 8px;
   box-shadow: 1px 1px 12px rgba(191, 206, 61, 0.6);
@@ -43,7 +43,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 60px;
-  margin-right: 16px;
+  margin: 8px;
   border: none;
   cursor: pointer;
   /* display: inline-block;
